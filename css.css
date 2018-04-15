@@ -3,3 +3,16 @@ body{
     margin: 0 auto;
     box-sizing: border-box;
 }
+.one{
+    height: 28px;
+}
+.two{
+    height: 89px;
+    background-color: #e5e7e6;
+}
+.three{
+    height: 41px;
+    background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,44,44) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,44,44) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,44,44) 100%);
+}
