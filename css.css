@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'VegurRegular';
+    src: url('fonts/VegurRegular.eot');
+    src: url('fonts/VegurRegular.eot') format('embedded-opentype'),
+    url('fonts/VegurRegular.woff2') format('woff2'),
+    url('fonts/VegurRegular.woff') format('woff'),
+    url('fonts/VegurRegular.ttf') format('truetype'),
+    url('fonts/VegurRegular.svg#VegurRegular') format('svg');
+}
 body{
     width: 100%;
     margin: 0 auto;
@@ -10,9 +19,45 @@ body{
     height: 89px;
     background-color: #e5e7e6;
 }
-.three{
+.nav-menu{
     height: 41px;
     background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,44,44) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,44,44) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,44,44) 100%);
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+}
+li{
+    padding: 0;
+    display: inline-block;
+    margin-right: 38px;
+    margin-top: 10px;
+    text-align: center;
+}
+ul li a{
+    font-size: 15px;
+    font-family: 'VegurRegular', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.menu .sub-menu{
+    display: none;
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+    color: #cecece;
+    background-color: black;
+    opacity: 0.6;
+    width: 113px;
+    min-height: 207px;
+    font-size: 12px;
+    text-align: center;
+
+
+}
+.menu>li:hover .sub-menu{
+    display: block;
+    border: 7px  solid black;
 }
