@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Ostrich Sans';
+    src: local('Ostrich Sans Light'), local('OstrichSans-Light'), url('ostrichsanslight.woff2') format('woff2'), url('ostrichsanslight.woff') format('woff'), url('ostrichsanslight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ostrich Sans';
+    src: local('Ostrich Sans Medium'), local('OstrichSans-Medium'), url('ostrichsansmedium.woff2') format('woff2'), url('ostrichsansmedium.woff') format('woff'), url('ostrichsansmedium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ostrich Sans';
+    src: local('Ostrich Sans Bold'), local('OstrichSans-Bold'), url('ostrichsansbold.woff2') format('woff2'), url('ostrichsansbold.woff') format('woff'), url('ostrichsansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ostrich Sans';
+    src: local('Ostrich Sans Black'), local('OstrichSans-Black'), url('ostrichsansblack.woff2') format('woff2'), url('ostrichsansblack.woff') format('woff'), url('ostrichsansblack.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
