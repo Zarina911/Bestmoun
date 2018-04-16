@@ -68,6 +68,7 @@ ul li a{
 }
 li:hover .sub-menu{
     display: block;
+    z-index: 1;
 }
 .container{
     height: 405px;
@@ -77,35 +78,37 @@ li:hover .sub-menu{
 }
 .info{
     display: block;
-    width: 402px;
-    height: 405px;
+    padding: 68px 68px 75px 25px;
     color: white;
     background-color: #d0002f;
     opacity: 0.8;
     position: absolute;
     left: 415px;
-    font-family: 'Ostrich Sans', sans-serif;
     font-weight: normal;
 }
 h1{
     margin: 0;
-    padding-top: 60px;
-    font-size: 40px;
+    font-size: 34px;
+    font-family: 'Ostrich Sans', sans-serif;
+
 }
 p{
     text-align: left;
-    font-size: 20px;
-    padding-left: 28px;
-
+    font-size: 18px;
+    font-family: 'Ostrich Sans', sans-serif;
 }
 button{
-    border-radius: 15%;
+    width: 145px;
+    height: 33px;
+    border-radius: 15px;
     background-image: -moz-linear-gradient( 90deg, rgb(65,73,81) 1%, rgb(229,231,230) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(65,73,81) 1%, rgb(229,231,230) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(65,73,81) 1%, rgb(229,231,230) 100%);
-    position: absolute;
-    left: 619px;
-    top: 452px;
-    width: 149px;
-    height: 37px;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 53px;
+
+
+
 }
